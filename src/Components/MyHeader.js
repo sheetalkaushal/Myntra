@@ -17,10 +17,6 @@ export default function MyHeader({headicon1,headicon2,headicon3,headicon4,headic
         {headicon3}
         {headicon4}
         {headicon5}
-        {/* <Icon img={require("../../assets/search.png")}/> */}
-        {/* <Icon img={require("../../assets/notification.png")}/> */}
-        {/* <Icon img={require("../../assets/favorite.png")}/> */}
-        {/* <Icon img={require("../../assets/shopping.png")}/> */}
       </View>
     </View>
    

@@ -7,6 +7,7 @@ const Brands = () => {
     <View>
     <MyHeader headicon3={<Icon img={require('../../../assets/favorite.png')}/>} 
       headicon4={<Icon img={require("../../../assets/shopping.png")}/>}/>
+      headicon={<Icon img={require("../../../assets/shopping.png")}/>}
       <Text>Studio</Text>
       <Text>Brands</Text>
     </View>
