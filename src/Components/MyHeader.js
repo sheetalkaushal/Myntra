@@ -1,7 +1,6 @@
 import { Text, View, Image ,TouchableOpacity} from "react-native";
 import React from "react";
 import { style } from "./Myheaderstyle";
-import Icon from "./Icon";
 export default function MyHeader({headicon1,headicon2,headicon3,headicon4,headicon5}) {
   return (
     <View style={style.main}>
