@@ -1,9 +1,6 @@
 import React from 'react'
 import { View, Text, StyleSheet, Dimensions, Image,ScrollView } from "react-native"
-import { TouchableOpacity } from 'react-native-web'
-
 export const SLIDER_WIDTH = Dimensions.get('window').width
-
 const CarouselCardItem = ({ item, index }) => {
   return (
     <ScrollView>
