@@ -16,6 +16,8 @@ export default function MyHeader({headicon1,headicon2,headicon3,headicon4,headic
         {headicon3}
         {headicon4}
         {headicon5}
+
+        
       </View>
     </View>
    

@@ -14,10 +14,6 @@ const CarouselCardItem = ({ item, index }) => {
         style={styles.image}
       />
     </View>
-    {/* <TouchableOpacity>
-      <Image resizeMode='contain'
-      source={{uri:index.img}}/>
-   </TouchableOpacity> */}
     </ScrollView>
 
    
