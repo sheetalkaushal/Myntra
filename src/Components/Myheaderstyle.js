@@ -5,14 +5,14 @@ export const style = StyleSheet.create({
     flex: 0.5,
     flexDirection: "row",
     alignItems: "center",
-    marginLeft: moderateScale(12),
+    marginLeft: moderateScale(12),     
   },
   container2: {
     flex: 0.6,
     flexDirection: "row",
-    justifyContent:"flex-end",
-    gap:10,
-    marginRight:moderateScale(10)
+    justifyContent: "flex-end",
+    gap: 10,
+    marginRight: moderateScale(10),
   },
   main: {
     flexDirection: "row",
@@ -24,5 +24,4 @@ export const style = StyleSheet.create({
     marginBottom: moderateScale(23),
     top: moderateScale(18),
   },
-
 });
