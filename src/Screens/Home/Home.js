@@ -9,10 +9,10 @@ const Home = () => {
   return (
     <ScrollView>
       <MyHeader
-      headicon1={<Icon img={require('../../../assets/search.png')}/>} 
-      headicon2={<Icon img={require("../../../assets/notification.png")}/>}
-      headicon3={<Icon img={require("../../../assets/favorite.png")}/>}
-      headicon4={<Icon img={require("../../../assets/shopping.png")}/>}
+        headicon1={<Icon img={require("../../../assets/search.png")} />}
+        headicon2={<Icon img={require("../../../assets/notification.png")} />}
+        headicon3={<Icon img={require("../../../assets/favorite.png")} />}
+        headicon4={<Icon img={require("../../../assets/shopping.png")} />}
       />
       <Flatlist />
       <Image
